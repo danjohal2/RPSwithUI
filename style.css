@@ -2,9 +2,58 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 section {
   height: 100vh;
   background-color: teal;
+}
+
+.title {
+  color: gold;
+  text-align: center;
+  font-size: 36px;
+  padding: 30px;
+  font-weight: bolder;
+}
+
+.score {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+  height: 20vh;
+  align-items: center;
+}
+
+.match h2 {
+  color: white;
+  height: 10vh;
+  font-size: 40px;
+  text-align: center;
+}
+
+.choiceimg {
+  display: flex;
+  justify-content: space-around;
+  height: 20vh;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5vh;
+}
+
+button {
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 24px;
+  width: 150px;
+  height: 75px;
+  background-color: gold;
+  border: none;
+  color: black;
+  cursor: pointer;
 }
