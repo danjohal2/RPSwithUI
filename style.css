@@ -27,6 +27,11 @@ section {
   align-items: center;
 }
 
+.player-score p,
+.computer-score p {
+  padding-top: 10px;
+}
+
 .match h2 {
   color: white;
   height: 10vh;
@@ -56,4 +61,22 @@ button {
   border: none;
   color: black;
   cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+  border: solid;
+  border-radius: 2px;
+  border-color: white;
+  border-radius: 5px;
+  color: white;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
